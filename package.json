@@ -1,0 +1,39 @@
+{
+    "name": "theoceanx-problems",
+    "version": "1.0.0",
+    "repository": "https://github.com/Ivan-Istomin/theoceanx-problems",
+    "bugs": {
+        "url": "https://github.com/Ivan-Istomin/theoceanx-problems/issues"
+    },
+    "description": "Solving problems from their series of articles Algorithmic trading 101",
+    "scripts": {
+        "problem_00": "babel-watch src/problem_00.js",
+        "problem_01": "babel-watch src/problem_01.js",
+        "problem_02": "babel-watch src/problem_02.js",
+        "problem_03": "babel-watch src/problem_03.js"
+    },
+    "author": "Ivan Istomin",
+    "license": "MIT",
+    "keywords": [
+        "trading",
+        "crypto",
+        "cryptocurrency",
+        "web3",
+        "ethereum",
+        "theoceanx",
+        "arbitrage"
+    ],
+    "dependencies": {
+        "bignumber.js": "^7.2.1",
+        "coinapi-io": "^1.0.2",
+        "date-fns": "^1.29.0",
+        "dotenv": "^5.0.1",
+        "ramda": "^0.25.0",
+        "the-ocean-x": "^0.4.10"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-watch": "^2.0.7"
+    }
+}
